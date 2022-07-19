@@ -197,10 +197,6 @@ img {
   padding: 200px 0;
   text-align: center;
   background-color: #2f303a;
-  background-image: url(../images/hero/hero-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .hero-main {
   margin-bottom: 30px;
@@ -208,7 +204,16 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  background-image: url(../images/hero/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!About section!!!!!!
