@@ -199,7 +199,8 @@ img {
   background-color: #2f303a;
   background-image: url(../images/hero/hero-bg.png);
   background-repeat: no-repeat;
-  background-position: top right, center;
+  background-position: center;
+  background-size: cover;
 }
 .hero-main {
   margin-bottom: 30px;
