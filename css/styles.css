@@ -308,7 +308,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
 }
 .company-link {
   display: flex;
@@ -316,6 +316,13 @@ img {
   justify-content: center;
   width: 170px;
   height: 92px;
+}
+.company-icon {
+  fill: #afb1b8;
+}
+.company-icon:hover,
+.company-icon:focus {
+  fill: #2196f3;
 }
 /* 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -326,6 +333,9 @@ img {
   background-color: var(--dark-bg-cl);
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
 .footer-logo {
@@ -366,6 +376,24 @@ img {
   color: var(--contact-cl);
 }
 
+.contactus-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.contactus-item {
+  display: flex;
+}
+.contactus-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
 /* portfolio page */
 .portfolio-section {
   padding-top: 94px;
