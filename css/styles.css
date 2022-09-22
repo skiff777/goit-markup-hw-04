@@ -157,6 +157,7 @@ img {
 .header-item {
   display: block;
 }
+
 .header-nav {
   margin-right: 331px;
 }
@@ -180,6 +181,7 @@ img {
   color: var(--accent-txt-cl);
 }
 .contact-item {
+  gap: 10px;
   color: var(--grey-cl);
   text-decoration: none;
 }
@@ -437,6 +439,10 @@ img {
   border: 1px solid var(--color-wrapper);
   border-top: none;
 }
+
+/* all icons are here */
+
+/* contact-icons */
 
 /* socials icons */
 .socials {
